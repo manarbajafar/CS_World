@@ -1,0 +1,232 @@
+
+/*slider style for main page*/
+.slider .track{
+      -fx-background-color: linear-gradient(to left,LightBlue,Khaki);
+      -fx-background-radius: 0;
+}
+.slider .thumb{
+      -fx-pref-height:30px;
+      -fx-pref-width:15px; 
+      -fx-background-color: linear-gradient(to top,DarkSeaGreen,PeachPuff);
+      -fx-background-radius: 0;
+}
+
+
+.button{
+	-fx-background-color: 
+        linear-gradient(#ffccd5, #ff758f),
+        linear-gradient(#fff0f3, #ff8fa3),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 20;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: Black;
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+    -fx-padding: 5;
+} 
+
+
+
+/*next and check answer and finish Buttons */
+
+#CheckAnswer,#next,#finishButton{
+           -fx-background-color:
+        linear-gradient(#b7e4c7, #74c69d),
+        linear-gradient(#d8f3dc, #95d5b2),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 20;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: Black;
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+    -fx-padding: 5;
+}
+
+/*style for Q1 level 1*/
+
+#bt1{
+        -fx-background-color:
+        /**الحواف الي فوق وتحت**/
+        linear-gradient( #7CABBA,  #7CABBA),
+        linear-gradient( #8BBECE, #8BBECE),
+        linear-gradient( #90C7D8,  #90C7D8),
+        linear-gradient( #90C7D8 0%,  #90C7D8 50%,  #90C7D8 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 20;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: white;
+    -fx-padding: 5;
+}
+#bt2{
+        -fx-background-color:
+        /**الحواف الي فوق وتحت**/
+        linear-gradient( #DA8F8F, #DA8F8F),
+        linear-gradient( #EC9B9B, #EC9B9B),
+        linear-gradient( #FFA8A8, #FFA8A8),
+        linear-gradient( #FFA8A8 0%, #FFA8A8 50%, #FFA8A8 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 20;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: white;
+    -fx-padding: 5;
+}
+#bt3{
+        -fx-background-color:
+        /**الحواف الي فوق وتحت**/
+        linear-gradient( #9BBEDC, #9BBEDC),
+        linear-gradient( #95C0E4, #95C0E4),
+        linear-gradient( #A6D6FF, #A6D6FF),
+        linear-gradient( #A6D6FF 0%,  #A6D6FF 50%,  #A6D6FF 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 20;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: white;
+    -fx-padding: 5;
+}
+#bt4{
+        -fx-background-color:
+        /**الحواف الي فوق وتحت**/
+        linear-gradient( #BFD58F, #BFD58F),
+        linear-gradient( #CBE299, #CBE299),
+        linear-gradient( #D5EEA1, #D5EEA1),
+        linear-gradient( #D5EEA1 0%,  #D5EEA1 50%,  #D5EEA1 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 20;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: white;
+    -fx-padding: 5;
+}
+
+
+/*style for Q2 level 1*/
+
+.combo-box{
+    -fx-border-color:#E6E6E6;
+    -fx-border-style:solid;
+    -fx-border-width:1;
+}
+.combo-box .arrow{
+    -fx-background-color:#8CB89C;
+}
+.combo-box .arrow-button{
+    -fx-background-color:#5A7162;
+    -fx-border-style:none;
+}
+.combo-box .arrow-button{
+    -fx-background-color: #DEFFEA;
+}
+.combo-box .list-cell{
+    -fx-background-color:#D5F6E1;
+}
+
+/*style for Q3 level 1*/
+
+
+#bt1{
+        -fx-background-color:
+        /**الحواف الي فوق وتحت**/
+        linear-gradient( #494949, #494949),
+        linear-gradient( #4D4D4D, #4D4D4D),
+        linear-gradient( #505050, #505050),
+        linear-gradient( #505050 0%,  #505050 50%,  #505050 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 20;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: white;
+    -fx-padding: 5;
+}
+
+/* style for scores page*/
+.mainFxmlClass {
+
+}
+.root{
+    -fx-background-color: #BACCFF;
+}
+
+.table-view{
+   -fx-background-color: transparent;
+}
+
+.table-view:focused{
+    -fx-background-color: transparent;
+}
+
+/* Spaltenköpfe
+    Struktur column-header-background -> column-header */
+
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(#A8BEFF 0%, #CFDBFF 100%);
+}
+
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: DarkSlateBlue;
+    -fx-text-aligment: center;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-view .table-cell{
+    -fx-text-fill: DarkSlateBlue;
+    -fx-text-aligment: center;
+}
+
+.table-row-cell{
+    -fx-background-color: -fx-table-cell-border-color, #DDE6FF;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */
+}
+
+.table-row-cell:odd{
+    -fx-background-color: -fx-table-cell-border-color, #CFDBFF;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */  
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #FFD9CE;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}
+
+.table-view > .virtual-flow > .scroll-bar:vertical,
+.table-view > .virtual-flow > .scroll-bar:vertical > .track,
+.table-view > .virtual-flow > .scroll-bar:vertical > .track-background, 
+.table-view > .virtual-flow > .scroll-bar:horizontal,
+.table-view > .virtual-flow > .scroll-bar:horizontal > .track,
+.table-view > .virtual-flow > .scroll-bar:horizontal > .track-background {
+    -fx-background-color: transparent;
+}
+
+
+
+.table-view > .virtual-flow > .scroll-bar > .increment-button, 
+.table-view > .virtual-flow > .scroll-bar > .decrement-button {
+    -fx-opacity: 0;
+}
+
+/*style for Q3 level 3*/
+
+.checkbox{
+	-fx-background-color: 
+        linear-gradient(#bbadff, #cbb2fe),
+        linear-gradient(#cbb2fe, #bbadff),
+        linear-gradient(#ada7ff 0%, #8187dc 50%, #757bc8 30%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+        -fx-background-radius: 10;
+        -fx-text-fill: white;
+}
+/*style for Q4,Q5 level 3*/
+
+#validation1,#validation2,
+#Evolution,#Design_Implementation,
+#Specification,#Validation{
+	-fx-background-color: 
+        linear-gradient(#fae693 100%, #d6d6d6 10%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+        -fx-background-radius: 20;
+        -fx-text-fill: black;
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="692.0" prefWidth="958.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs_world.Girl1lvlsController">
+   <children>
+      <ImageView fitHeight="692.0" fitWidth="969.0" layoutX="-7.0" pickOnBounds="true">
+         <image>
+            <Image url="@../img-sound/unigirl1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="168.0" fitWidth="951.0" layoutY="498.0"  opacity="0.94" pickOnBounds="true">
+         <image>
+            <Image url="@../img-sound/red.square.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="97.0" layoutY="522.0" prefHeight="19.0" prefWidth="58.0" text="LUNA">
+         <font>
+            <Font name="Times New Roman Bold" size="20.0" />
+         </font>
+      </Label>
+      <Text fx:id="text" layoutX="90.0" layoutY="574.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="796.13671875">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Text>
+      <Button layoutX="550.0" layoutY="430.0" mnemonicParsing="false" style="-fx-background-color: #ff8475;">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="playbtn" layoutX="824.0" layoutY="610.0" mnemonicParsing="false" onAction="#changeScenetogame" style="-fx-background-color: #ff9d85; -fx-background-radius: 10px;" text="Play" textFill="#c90000">
+         <font>
+            <Font name="Times New Roman Bold" size="19.0" />
+         </font>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

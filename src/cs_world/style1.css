@@ -1,0 +1,82 @@
+
+/*listview style for Q3 level 2*/
+.list-view .list-cell:filled:selected {
+    -fx-background-color: #F08080;
+    -fx-text-fill: white;
+}
+
+.list-view .list-cell:filled:hover {
+    -fx-background-color: #FFA07A;
+    -fx-text-fill: white;
+}
+.list-view .list-cell {
+    -fx-background-color: #FAEBD7;
+    -fx-text-fill: #696969;
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+}
+
+.button{
+           -fx-background-color: transparent;
+}
+
+/*
+style table view in scores scene 
+
+style table-view reference
+https://edencoding.com/style-tableview-javafx/
+
+*/
+.table-view {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(to bottom, #FFC0CB, #FAEBD7); 
+    -fx-background-radius: 7px 7px 0px 0px;
+    -fx-background-insets: 0 11px 0 0;
+    -fx-padding: 0 0 5px 0;
+}
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-row-cell:selected {
+    -fx-text-background-color: black;
+}
+.table-view .table-cell{
+    -fx-border-color: transparent;
+    -fx-padding: 2 0 2 10px;
+}
+.table-row-cell:odd{
+    -fx-background-color: transparent;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+.table-row-cell:even{
+    -fx-background-color: transparent;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+.table-view .virtual-flow .scroll-bar:vertical,
+.table-view .virtual-flow .scroll-bar:vertical .track,
+.table-view .virtual-flow .scroll-bar:vertical .track-background,
+.table-view .virtual-flow .scroll-bar:horizontal,
+.table-view .virtual-flow .scroll-bar:horizontal .track,
+.table-view .virtual-flow .scroll-bar:horizontal .track-background {
+    -fx-background-color: transparent;
+}
+
+.table-view .virtual-flow .scroll-bar .increment-button,
+.table-view .virtual-flow .scroll-bar .decrement-button {
+    -fx-opacity: 0;
+    -fx-padding: 2;
+}
+
+.table-view .virtual-flow .scroll-bar:vertical .thumb{
+    -fx-background-color:  linear-gradient(to bottom, #FFC0CB,#FAEBD7);
+}
+.table-view .virtual-flow .scroll-bar:horizontal .thumb {
+    -fx-background-color:  linear-gradient(to right, #FFC0CB, #FAEBD7);
+}
+

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Point3D?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="514.0" prefWidth="754.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs_world.SignuppController">
+   <children>
+      <ImageView fitHeight="708.0" fitWidth="958.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img-sound/background.jpg" />
+         </image>
+      </ImageView>
+      <StackPane layoutX="162.0" layoutY="149.0" prefHeight="342.0" prefWidth="635.0">
+         <children>
+            <ImageView fitHeight="259.0" fitWidth="505.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img-sound/internalbackground.png" />
+               </image>
+            </ImageView>
+            <AnchorPane prefHeight="328.0" prefWidth="635.0">
+               <children>
+                  <ImageView fx:id="c" fitHeight="112.0" fitWidth="50.0" layoutX="151.0" layoutY="-25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img-sound/c.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="s" fitHeight="112.0" fitWidth="50.0" layoutX="187.0" layoutY="-25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img-sound/s.png" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="107.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="sign up" wrappingWidth="161.5849609375">
+                     <font>
+                        <Font name="Arabic Typesetting" size="36.0" />
+                     </font>
+                  </Text>
+                  <ImageView fx:id="w" fitHeight="99.0" fitWidth="50.0" layoutX="247.0" layoutY="-21.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img-sound/w.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="o" fitHeight="108.0" fitWidth="50.0" layoutX="293.0" layoutY="-26.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img-sound/o.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="r" fitHeight="108.0" fitWidth="50.0" layoutX="337.0" layoutY="-25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img-sound/r.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="l" fitHeight="112.0" fitWidth="50.0" layoutX="381.0" layoutY="-25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img-sound/l.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="d" fitHeight="114.0" fitWidth="50.0" layoutX="423.0" layoutY="-24.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img-sound/d.png" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="113.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please enter your information !" wrappingWidth="359.13671875">
+                     <font>
+                        <Font name="Segoe Print" size="20.0" />
+                     </font>
+                  </Text>
+                  <TextField fx:id="emailbox2" layoutX="127.0" layoutY="144.0" prefHeight="31.0" prefWidth="187.0" promptText="e-mail" />
+                  <TextField fx:id="namebox2" layoutX="321.0" layoutY="145.0" promptText="username" />
+                  <ImageView fitHeight="77.0" fitWidth="39.0" layoutX="122.0" layoutY="198.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img-sound/sakura2.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="13.0" fitWidth="30.0" layoutX="478.0" layoutY="211.0" opacity="0.73" pickOnBounds="true" preserveRatio="true" rotate="-55.5" translateX="5.0">
+                     <image>
+                        <Image url="@../img-sound/petal.png" />
+                     </image>
+                     <rotationAxis>
+                        <Point3D x="1.0" y="1.0" z="1.0" />
+                     </rotationAxis>
+                  </ImageView>
+                  <ImageView fitHeight="16.0" fitWidth="16.0" layoutX="423.0" layoutY="198.0" opacity="0.87" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img-sound/blossom.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="30.0" fitWidth="22.0" layoutX="120.0" layoutY="258.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img-sound/sakura2.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="7.0" fitWidth="16.0" layoutX="467.0" layoutY="126.0" pickOnBounds="true" preserveRatio="true" rotate="-28.9">
+                     <image>
+                        <Image url="@../img-sound/petal.png" />
+                     </image>
+                  </ImageView>
+                  <PasswordField fx:id="passwordbox2" layoutX="127.0" layoutY="195.0" promptText="password" />
+                  <ImageView fitHeight="86.0" fitWidth="30.0" layoutX="487.0" layoutY="142.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img-sound/sakura2.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="35.0" fitWidth="13.0" layoutX="169.0" layoutY="255.0" opacity="0.93" pickOnBounds="true" preserveRatio="true" rotate="-40.8">
+                     <image>
+                        <Image url="@../img-sound/blossom.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="emailmsg2" layoutX="127.0" layoutY="174.0" prefHeight="21.0" prefWidth="187.0" textFill="RED" />
+                  <Label fx:id="namemsg2" layoutX="328.0" layoutY="173.0" prefHeight="21.0" prefWidth="212.0" textFill="RED" />
+                  <Label fx:id="passwordmsg2" layoutX="127.0" layoutY="227.0" prefHeight="21.0" prefWidth="187.0" textFill="RED" />
+                  <Label fx:id="passwordVmsg2" layoutX="324.0" layoutY="227.0" prefHeight="21.0" prefWidth="197.0" textFill="RED" />
+                  <ImageView fitHeight="30.0" fitWidth="59.0" layoutX="377.0" layoutY="249.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../img-sound/red.png" />
+                     </image>
+                     <effect>
+                        <Glow />
+                     </effect>
+                  </ImageView>
+                  <ImageView fitHeight="30.0" fitWidth="59.0" layoutX="448.0" layoutY="249.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../img-sound/red.png" />
+                     </image>
+                     <effect>
+                        <Glow />
+                     </effect>
+                  </ImageView>
+                  <Button layoutX="384.0" layoutY="249.0" mnemonicParsing="false" onAction="#switchTologin" stylesheets="@style1.css" text="back">
+                     <font>
+                        <Font name="Segoe Print" size="12.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button layoutX="456.0" layoutY="249.0" mnemonicParsing="false" onAction="#signUpButton" stylesheets="@style1.css" text="next">
+                     <font>
+                        <Font name="Segoe Print" size="12.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <PasswordField fx:id="verifybox2" layoutX="321.0" layoutY="195.0" promptText="password verification" />
+                  <ImageView fitHeight="117.0" fitWidth="130.0" layoutX="62.0" layoutY="-42.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img-sound/sparkles.gif" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="117.0" fitWidth="130.0" layoutX="436.0" layoutY="-38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img-sound/sparkles.gif" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </children>
+      </StackPane>
+   </children>
+</AnchorPane>

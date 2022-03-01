@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="690.0" prefWidth="958.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs_world.L3Controller">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="958.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img-sound/background.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="sImg" fitHeight="31.0" fitWidth="31.0" layoutX="698.0" layoutY="454.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img-sound/sparkling.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="s2Img" fitHeight="31.0" fitWidth="31.0" layoutX="698.0" layoutY="454.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img-sound/sparkling.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="s3Img" fitHeight="34.0" fitWidth="31.0" layoutX="698.0" layoutY="454.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img-sound/sparkling.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="finishButton" disable="true" layoutX="677.0" layoutY="448.0" mnemonicParsing="false" onAction="#switchToscore" prefHeight="34.0" prefWidth="64.0" stylesheets="@style.css" text="Finish">
+         <font>
+            <Font name="Cambria Bold" size="10.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fx:id="chooseimg" fitHeight="79.0" fitWidth="175.0" layoutX="392.0" layoutY="139.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img-sound/chooose.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="226.0" layoutY="250.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The last software proccess is:" wrappingWidth="320.8033905029297">
+         <font>
+            <Font name="Farsi Simple Outline" size="19.0" />
+         </font>
+      </Text>
+      <Button fx:id="Specification" layoutX="500.0" layoutY="277.0" mnemonicParsing="false" onAction="#checkAnswerQ5" prefHeight="50.0" prefWidth="223.0" stylesheets="@style.css" text="Specification">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="Validation" layoutX="500.0" layoutY="364.0" mnemonicParsing="false" onAction="#checkAnswerQ5" prefHeight="50.0" prefWidth="223.0" stylesheets="@style.css" text="Validation">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="Design_Implementation" layoutX="234.0" layoutY="277.0" mnemonicParsing="false" onAction="#checkAnswerQ5" prefHeight="50.0" prefWidth="223.0" stylesheets="@style.css" text="Design&amp;Implementation">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="Evolution" layoutX="234.0" layoutY="364.0" mnemonicParsing="false" onAction="#checkAnswerQ5" prefHeight="50.0" prefWidth="223.0" stylesheets="@style.css" text="Evolution">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fx:id="correctMarkQ5" fitHeight="25.0" fitWidth="22.0" layoutX="419.0" layoutY="378.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img-sound/true.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="wrongMarkQ5_1" fitHeight="25.0" fitWidth="22.0" layoutX="687.0" layoutY="291.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img-sound/false.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="wrongMarkQ5_2" fitHeight="25.0" fitWidth="22.0" layoutX="687.0" layoutY="378.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img-sound/false.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="wrongMarkQ5_3" fitHeight="25.0" fitWidth="22.0" layoutX="419.0" layoutY="291.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img-sound/false.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
