@@ -4,10 +4,10 @@ The game is about a girl and she is a university student majoring in Computer Sc
 # Dependencies
 These are the requirements to run this game:
 
-JDK.
-MySQL.
-Hibernate.
-Jfoenix library, it can be downloaded from here : https://jar-download.com/artifacts/com.jfoenix/jfoenix/8.0.8/source-code
+1. JDK.
+2. MySQL.
+3. Hibernate.
+4. Jfoenix library, it can be downloaded from here : https://jar-download.com/artifacts/com.jfoenix/jfoenix/8.0.8/source-code
 After downloding it, add it under "Libraries" folder as shown in the figure:
 ![image](https://user-images.githubusercontent.com/60103703/157100960-a6e12cae-0fd5-4fe8-94f4-0320141901d7.png)
 
